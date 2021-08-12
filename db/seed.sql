@@ -14,7 +14,7 @@ VALUES ("Accountant", 80000, 2);
 INSERT INTO `role` (title, salary, department_id) 
 VALUES ("Operations", 70000, 2);
 INSERT INTO `role` (title, salary, department_id) 
-VALUES ("Shipping", 80000, 3);
+VALUES ("Help Desk", 80000, 3);
 INSERT INTO `role` (title, salary, department_id) 
 VALUES ("Database", 50000, 3);
 
