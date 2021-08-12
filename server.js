@@ -12,7 +12,7 @@ const connection = mysql.createConnection({
 
 connection.connect((err) => {
   if (err) throw err;
-  console.log(`Start the Employee Tracker Application!`);
+  console.log(`Employee Tracker Application`);
   init();
 });
 
@@ -105,7 +105,6 @@ function viewAllEmployeesByDepartment() {
       name: data.name,
       value: data.id,
     }));
-    console.log(departmentSelection);
     console.table(res);
 
     promptDepartment(departmentSelection);
