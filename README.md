@@ -21,6 +21,8 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 A program to keep track of employees, roles, managers, and salary.
 
+video: https://drive.google.com/file/d/1-vGAhr8FdP2QHhdPrfU0cMTlCYneQsOI/view
+
 ## Installation
 
 -mySQL load schema and seed data
